@@ -1,0 +1,368 @@
+/* geral */
+
+
+body, h1, h2, input, textarea{
+	margin: 0;
+	font-family: Roboto;
+	font-weight: bolder;
+}
+h1 {
+	font-size: 45px;
+	font-weight: bolder;
+	font-family: LEMON MILK;
+	color: #FFF;
+	text-shadow: 5px 5px #000;
+
+}
+h2 {
+	font-size: 27px;
+	font-weight: bolder;
+	font-family: LEMON MILK;
+}
+
+/*navbar */
+#navbar {
+	position: fixed;
+	background-color: #CD5C5C;
+	width: 100%;
+	top: 0;
+	color: #fff;
+	
+	
+	
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+	display: inline-block;
+}
+
+#navbar h2, #navbar nav{
+	display: inline-block;
+}
+
+#navbar h2 {
+	margin: 0;
+	line-height: 65px;
+	margin-left: 70px;
+	cursor: pointer;
+}
+
+#navbar img {
+height: 50px;
+position: absolute;
+top: 10px;
+cursor: pointer;
+}
+
+#navbar nav {
+	float: right;
+}
+#navbar ul{
+	margin-top: 22px;
+}
+#navbar li {
+	margin: 0 10px;
+}
+
+
+#navbar-list li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 43px 25px 22px;
+	font-family: Montserrat,sans-serif;
+	font-size: 17px;
+	
+}
+
+#navbar-list li a:hover{
+border-bottom: 2px solid #fff;
+
+}
+
+/*banner */
+#main-banner {
+	height: 80vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	padding-top: 15vh; 
+}
+
+#banner-info {
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #fff;
+	padding: 50px;
+
+}
+/* icone ninja redondo */
+#banner-info img {
+	height: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#banner-info p {
+	background-color: #1C1C1C;
+	font-weight: bold;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	border-radius: 24px;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+
+/* Sobre a barbearia */
+
+#about-section{
+	text-align: center;
+	background-color: #1C1C1C;
+	color: #fff;
+	padding-top: 55px;
+	height: 470px;
+}
+
+#about-section h2 {
+  margin-bottom: 50px;
+}
+
+/* estilizando texto*/
+#about-section p {
+	font-size: 21px;
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 31px;
+	font-family: Raleway,sans-serif;
+}
+
+/* skills */
+
+#skills-section{
+	margin-top: -100px;
+	background-color:#FF4040;
+	width: 84%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #FF4040;
+	border-radius: 110px;
+}
+
+#skills-section.container {
+	display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.skills-container2 p{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: LEMON MILK; 
+}
+.skills-container{
+	flex: 1 1;
+	text-align: center;
+	padding: 195px 295px;
+	display: inline-block;
+}
+
+.skills-container h3 {
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: LEMON MILK; 
+}
+
+.skills-container img {
+	height: 90px;
+	margin-bottom: 80px;
+
+}
+
+.skills-container .subtitle {
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 15px; 
+	font-size: 25px;
+}
+
+.skills-container p{
+	line-height: 65px;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 19px;
+	font-family: "Helvetica", sans-serif;
+}
+
+/* jobs */
+#jobs-section {
+	text-align: center;
+	padding-top: 50px;
+}
+#jobs-section h2 {
+	color: #000;
+	margin-top: 85px;
+	margin-bottom: 70px;
+}
+
+#jobs-section p {
+	margin-bottom: 50px;
+	
+}
+
+#jobs-section a {
+	font-weight: bold;
+	color: #000;
+}
+
+.job-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	
+}
+/* tam img */
+.job-box {
+	flex: 1 1 200px;
+	margin-left: 30px;
+	margin-right: 40px;
+	height: 400px;
+	background-size: cover;
+	border-right: 5px solid #000;
+	border-bottom: 5px solid #000;
+	border-left: 5px solid #000;
+	border-top: 5px solid #000;
+}
+
+
+.proj1 {
+	background-image: url('../img/corte6.jpeg');
+}
+
+.proj2 {
+	background-image: url('../img/corte4.jpeg');
+}
+
+.proj3 {
+	background-image: url('../img/corte3.jpeg');
+}
+
+.proj4 {
+	background-image: url('../img/corte5.jpeg');
+}
+
+.proj5 {
+	background-image: url('../img/corte2.jpeg');
+}
+
+.proj6 {
+	background-image: url('../img/corte.jpeg');
+}
+
+/* footer */
+
+footer {
+height: 100%;
+	padding: 1px 170px;
+	background-color: #CD5C5C;
+	color: #fff;
+	text-align: left;
+	margin-top: 210px;
+}
+/*caixa de mensagem*/
+
+footer form {
+	width: 600px;
+	
+   
+}
+
+footer input{
+	border: none;
+    padding: 25px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 45px;
+    width: 80%;
+    position: relative;
+    top: -215px;
+    left: 871px;
+    margin-top: 13px;
+    font-family: Montserrat,sans-serif;
+	resize: none;
+
+}
+
+footer textarea{
+	border: none;
+    padding: 19px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 45px;
+	width: 80%;
+    position: relative;
+    top: -215px;
+    left: 871px;
+    margin-top: 13px;
+    font-family: Montserrat,sans-serif;
+	resize: none;
+	
+
+
+}
+
+input[type=submit]{
+	color: white;
+	background-color:#6495ED;
+	width: 30%;
+	left: 875px;
+	margin-top: 14px;
+}
+input, textarea {
+    outline: 0;
+}
+
+
+footer h2 {
+	margin-top: 115px;
+	font-family: LEMON MILK;
+	color: #ffffff;
+    font-size: 50px;
+	font-weight: 900px;
+	margin-bottom: -90px;
+}
+
+footer h3 {
+	margin-top: 29px;
+	font-family: LEMON MILK;
+	color: #ffffff;
+    font-size: 45px;
+	font-weight: 900px;
+	margin-bottom: 40px;
+	margin-left: 779px;
+}
+footer p {
+margin-top: 17px;
+color: #ffffff;
+font-size: 16px;
+font-family: Montserrat,sans-serif;
+}
+
+footer img{
+	padding-top: 15px;
+	padding-right: 10px;
+	width: 20px;
+	cursor: pointer;
+}
+
+
+
